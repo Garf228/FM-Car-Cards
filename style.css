@@ -1,0 +1,117 @@
+
+body{
+    background:  hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%) ;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca";
+    
+}
+
+main {
+
+display:flex;
+width: 80%;
+margin: auto;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+min-height:100vh;
+font-size: 15px;
+
+}
+
+
+
+
+
+a{
+    background: hsl(0, 0%, 95%);
+    border-radius: 1rem;
+    padding:0.5rem;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    
+}
+
+h1{
+    font-family:"Big Shoulders Display";
+    text-transform:uppercase;
+}
+
+p{
+    padding-bottom:1rem;
+}
+
+.container {
+    padding:1.5rem;
+}
+
+.sedanContainer{
+    background:hsl(31, 77%, 52%);
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+.sedanContainer a{
+    color:hsl(31, 77%, 52%);
+
+}
+.suvContainer{
+    background: hsl(184, 100%, 22%);
+}
+
+.suvContainer a{
+    color: hsl(184, 100%, 22%);
+
+}
+.luxuryContainer{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 0 1rem 1rem;
+
+}
+.luxuryContainer a{
+    color:  hsl(184, 100%, 22%);
+
+
+}
+
+a:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; margin:1rem; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width:768px){
+    main{
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+      
+    }
+
+    .sedanContainer{
+    background:hsl(31, 77%, 52%);
+    border-radius: 1rem 0 0 1rem;
+
+}
+
+
+.luxuryContainer{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 1rem 1rem 0;
+
+}
+
+
+}
+
+    
